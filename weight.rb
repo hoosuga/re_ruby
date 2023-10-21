@@ -10,3 +10,9 @@ weight = 50
 puts name + "さんの体重は" + weight.to_s + "kgです"
 puts "#{name}さんの体重は#{weight}kgです"
 puts "#{name}さんの体重は#{weight + 5 }kgです"
+
+
+name = "C"
+weight = 60
+
+puts name + "さんの体重は" + weight.to_s + "kgです"
