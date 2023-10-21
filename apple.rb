@@ -1,10 +1,9 @@
-apple = "Yamagata"
+apple = "Nagano"
 
 if apple == "Aomori"
-  puts "このリンゴは青森県産です"
+  puts "このリンゴは青森県産"
 elsif apple == "Nagano"
-  puts "このリンゴは青森県産ではなく、長野県産です"
+  puts "このリンゴは青森県産ではなく長野県産"
 else
-  puts "このリンゴは青森県産でも長野県産でもありません"
+  puts "このリンゴは青森県産でも青森県産でもない"
 end
-  
