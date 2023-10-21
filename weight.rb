@@ -16,3 +16,4 @@ name = "C"
 weight = 60
 
 puts name + "さんの体重は" + weight.to_s + "kgです"
+puts "#{name}産の体重は#{weight}です"
