@@ -3,11 +3,20 @@ class Car
     puts "車で#{distance}キロ走ります。"
   end
   
-  def turn(direction)
+  def trun(direction)
     puts "#{direction}に曲がります。"
   end
 end
 
 car = Car.new
-car.turn("右")
+car.trun("右")
 car.run(5)
+
+class Car
+  def self.trun(direction)
+    puts "#{direction}に曲がります。"
+  end
+end
+   
+
+Car.trun("右")
