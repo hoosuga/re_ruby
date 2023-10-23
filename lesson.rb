@@ -1,9 +1,10 @@
-total_price = 130
+puts "計算を始めます"
+puts "２つの値を入力してください"
 
-if total_price > 100
-  puts "みかんを購入。所持金に余りあり。"
-elsif total_price == 100
-  puts "みかんを購入。所持金は0円。"
-else
-  puts "みかんを購入することができません。"
-end
+a = gets.to_i
+b = gets.to_i
+
+puts "計算結果を出力します"
+
+puts "#{a}*#{b}=#{a * b}"
+puts "計算を終了します"
